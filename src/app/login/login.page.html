@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button color="success" text="" defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title  color="success">Iniciar Sesión</ion-title>
+    </ion-toolbar>
+    
+</ion-header>
+
+  <ion-content>
+    <ion-card>
+        
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating"> Usuario</ion-label>
+          <ion-input [(ngModel)]="userInput"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input [(ngModel)]="passInput" type="password"></ion-input>
+        </ion-item>
+        
+      </ion-card-content>
+      <ion-button color="success" expand="block" (click) = "Validar()">Ingresar</ion-button>
+    </ion-card>
+    <ion-text color="success" (click) = "Registrar()">No tienes una cuenta ?</ion-text>
+    
+  </ion-content>
+  

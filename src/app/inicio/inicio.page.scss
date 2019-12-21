@@ -1,0 +1,25 @@
+
+ion-title{
+  margin-top: 150px;
+}
+
+.background{
+    --background: url(../../../img/back.png) no-repeat center center / cover;
+}
+
+.start{
+  --background : white;
+  --background-activated : green;
+  --background-hover : #2EBB16;
+  --color : green;
+  --color-activated : white;
+  margin-top: 350px;
+}
+
+.regis{
+    --background : green;
+    --background-activated : white;
+    --background-hover : #2EBB16;
+    --color : white;
+    --color-activated : green;
+  }
